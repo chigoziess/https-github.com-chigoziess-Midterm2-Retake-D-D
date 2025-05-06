@@ -14,7 +14,7 @@ class MonsterDetailViewModel {
     var type: String = ""
     var alignment: String = ""
     var hitPoints: Int = 0
-    var imageURL: String? = ""
+    var imageURL: String = ""
     
     var baseURL = "https://www.dnd5eapi.co"
     var urlString = "https://www.dnd5eapi.co/api/2014/monsters"
